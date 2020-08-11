@@ -1,0 +1,1 @@
+/usr/bin/clang-8 -fsanitize=address,undefined,fuzzer-no-link -O2 -g -O3 -DNDEBUG  -rdynamic CMakeFiles/list_cpu_features.dir/src/utils/list_cpu_features.c.o  -o list_cpu_features libcpu_features.a -ldl 
